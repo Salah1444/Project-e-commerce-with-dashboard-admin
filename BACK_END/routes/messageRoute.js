@@ -1,5 +1,5 @@
 import express from 'express';
-import { sendMessage, getMessages, deleteMessage } from '../controllers/ContactMessageController.js';
+import { sendMessage, getMessages, deleteMessage } from '../controllers/contactMessageController.js';
 import rateLimit from 'express-rate-limit';
 import { adminMiddleware,authMiddleware } from "../middleware/auth.js";
 
