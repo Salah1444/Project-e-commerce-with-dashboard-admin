@@ -1,0 +1,105 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"/>
+      <stop offset="100%" stop-color="#7B2CFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Circle -->
+  <circle
+    cx="250"
+    cy="200"
+    r="140"
+    stroke="url(#grad1)"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <!-- React Style Orbit 1 -->
+  <ellipse
+    cx="250"
+    cy="200"
+    rx="120"
+    ry="45"
+    transform="rotate(0 250 200)"
+    stroke="url(#grad1)"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <!-- Orbit 2 -->
+  <ellipse
+    cx="250"
+    cy="200"
+    rx="120"
+    ry="45"
+    transform="rotate(60 250 200)"
+    stroke="url(#grad1)"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <!-- Orbit 3 -->
+  <ellipse
+    cx="250"
+    cy="200"
+    rx="120"
+    ry="45"
+    transform="rotate(-60 250 200)"
+    stroke="url(#grad1)"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <!-- Center Shopping Bag -->
+  <rect
+    x="200"
+    y="150"
+    width="100"
+    height="110"
+    rx="18"
+    fill="#111827"
+  />
+
+  <!-- Bag Handle -->
+  <path
+    d="M220 150C220 120 280 120 280 150"
+    stroke="#111827"
+    stroke-width="10"
+    fill="none"
+  />
+
+  <!-- S Letter -->
+  <text
+    x="250"
+    y="225"
+    text-anchor="middle"
+    fill="white"
+    font-size="64"
+    font-family="Arial"
+    font-weight="bold"
+  >
+    S
+  </text>
+
+  <!-- Orbit Balls -->
+  <circle cx="250" cy="60" r="12" fill="#00C6FF"/>
+  <circle cx="130" cy="270" r="12" fill="#7B2CFF"/>
+  <circle cx="370" cy="270" r="12" fill="#4F46E5"/>
+
+  <!-- Brand Name -->
+  <text
+    x="250"
+    y="390"
+    text-anchor="middle"
+    fill="url(#grad1)"
+    font-size="52"
+    font-family="Poppins, Arial"
+    font-weight="700"
+  >
+    SalahStore
+  </text>
+
+</svg>
