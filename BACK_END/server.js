@@ -83,6 +83,6 @@ app.use((err, req, res, next) => {
 });
 
 // run serve
-app.listen(PORT,()=>{
-    console.log(`run on http://localhost:${process.env.PORT_BACKEND}`);
-})
+server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
