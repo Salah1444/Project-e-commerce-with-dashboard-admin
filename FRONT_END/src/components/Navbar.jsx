@@ -4,7 +4,6 @@ import { ActivateLink, ToggleCart, ToggleFavorit } from "../store/storeSlice";
 import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
-import { Moon, Sun } from "lucide-react";
 import { SetLoginForm } from "../store/userSlice";
 import DropDown from "./dropDown";
 import { useDarkMode } from "@/hooks/use-darkMode";

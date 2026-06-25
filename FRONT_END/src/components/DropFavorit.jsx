@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { ToggleFavorit } from "../store/storeSlice";
 import { ToggleFavorite } from "../store/favoriteSlice";
 import { AddToCart } from "../store/cartSlice";
-import { FaTrashCan, FaX } from "react-icons/fa6";
+import {  FaX } from "react-icons/fa6";
 import { TrashIcon } from "lucide-react";
 
 function DropFavorit() {

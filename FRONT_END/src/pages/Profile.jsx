@@ -1,12 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchVille } from "@/store/villeSlice";
 import { deleteProfile, updateProfile,UpdatePassword, logout } from "@/store/userSlice";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Card } from "@/components/ui/card";
 import { toast } from "react-toastify";
-import { useDarkMode } from "@/hooks/use-darkMode";
 export default function Profile() {
   const { user,passwordUpdated } = useSelector((state) => state.user);
 

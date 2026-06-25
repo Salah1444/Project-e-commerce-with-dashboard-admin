@@ -1,6 +1,5 @@
 import API from "@/services/api";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
 import { toast } from "react-toastify";
 
 export const fetchReviews = createAsyncThunk(

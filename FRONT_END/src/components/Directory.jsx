@@ -1,5 +1,4 @@
 import Card from './card';
-import { useSelector } from 'react-redux';
 function Directory({products}) {
   
   return (

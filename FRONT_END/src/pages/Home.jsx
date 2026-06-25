@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { ActivateLink } from "@/store/storeSlice";
 import { FilterProducts } from "@/store/productsSlice";
-import Card from "@/components/Card";
 import { FaCartShopping } from "react-icons/fa6";
 import Directory from "@/components/Directory";
 function Home() {

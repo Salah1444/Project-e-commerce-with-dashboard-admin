@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 
 function Counter({ final_time, speed = 10 }) {
     const [count, setCount] = useState(0);

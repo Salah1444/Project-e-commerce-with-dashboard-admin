@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUsers, setSearchQuery } from "@/store/userSlice";
+import { fetchUsers } from "@/store/userSlice";
 import {
   Table, TableBody, TableCell, TableHead,
   TableHeader, TableRow,
 } from "@/components/ui/table";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Search, ShieldCheck, User, MapPin, ShoppingCart, Heart, Plus } from "lucide-react";
+import {  ShieldCheck, User, MapPin, ShoppingCart, Heart, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button"
 import {  useNavigate } from "react-router-dom";
 import Loading from "@/components/Loading";
@@ -34,7 +33,9 @@ export default function AdminUsers() {
   const  onAddClick = ()=>{
    navigate('../addAdmin');
   }
-  
+  if(loading){
+    return <Loading />
+  }
   return (
     <div className="space-y-6">
       {/* Header */}

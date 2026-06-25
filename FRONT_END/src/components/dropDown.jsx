@@ -1,6 +1,5 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDown, Moon, Sun } from 'lucide-react'
-import { FaUser } from 'react-icons/fa6'
 import { useDispatch, useSelector } from 'react-redux'
 import { logout } from '@/store/userSlice';
 import { Link } from 'react-router-dom';
