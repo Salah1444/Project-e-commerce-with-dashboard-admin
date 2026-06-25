@@ -18,7 +18,7 @@ import http from"http";
 import { initSocket } from "./socket.js";
 const app = express();
 const server = http.createServer(app);
-
+const PORT = process.env.PORT_BACKEND || 5000;
 initSocket(server);
 app.use(
   helmet({
@@ -83,6 +83,6 @@ app.use((err, req, res, next) => {
 });
 
 // run serve
-app.listen(process.env.PORT_BACKEND,()=>{
+app.listen(PORT,()=>{
     console.log(`run on http://localhost:${process.env.PORT_BACKEND}`);
 })
