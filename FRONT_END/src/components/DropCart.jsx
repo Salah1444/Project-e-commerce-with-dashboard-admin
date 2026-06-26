@@ -11,7 +11,7 @@ function DropCart() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-white z-50 fixed right-0 top-0 w-1/4 h-full p-5 dark:bg-slate-800 ">
+    <div className="bg-white z-50 fixed right-0 top-0 md:w-1/4 w-1/2 h-full p-5 dark:bg-slate-800 ">
       <h1 className="text-2xl flex justify-between mb-6 text-center">
         Shop cart
         <FaX

@@ -11,7 +11,7 @@ function DropFavorit() {
   const dispatch = useDispatch();
 
   return (
-    <div className="bg-white z-50 fixed right-0 top-0 w-1/4 dark:bg-slate-800 h-full p-5">
+    <div className="bg-white z-50 fixed right-0 top-0 md:w-1/4 w-1/2 dark:bg-slate-800 h-full p-5">
       <h1 className="text-2xl flex justify-between mb-6 text-center">
         Favorits
         <FaX
@@ -20,9 +20,7 @@ function DropFavorit() {
           size={24}
         />
       </h1>
-
       <hr />
-
       <ul className="divide-y overflow-y-scroll h-[85%]">
         {favorit.map((el) => (
           <React.Fragment key={el._id}>

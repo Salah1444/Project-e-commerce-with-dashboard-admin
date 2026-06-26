@@ -21,7 +21,7 @@ function ClientsLayout() {
   const { loginForm } = useSelector((st) => st.user);
   const location = useLocation();
 
-  // ✅ Title dynamique avec nom du site
+  
   useEffect(() => {
     const segment = location.pathname.split("/").filter(Boolean)[0] ?? "";
     const page = PAGE_TITLES[segment.toLowerCase()] ?? segment;

@@ -9,7 +9,7 @@ export default function DropDown() {
     const { user } = useSelector((state) => state.user);
      const [dark, setDark] = useDarkMode();
   return (
-    <Menu as="div" className="relative inline-block">
+    <Menu as="div" className="relative md:inline-block hidden">
       <MenuButton className="inline-flex w-full    rounded-full   text-sm font-semibold text-white inset-ring-1 outline-0 inset-ring-white/5 hover:bg-white/20">
         <div
     className="

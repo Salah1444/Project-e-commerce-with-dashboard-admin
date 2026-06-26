@@ -41,7 +41,7 @@ function App() {
   const dispatch = useDispatch();
   const { token, user } = useSelector((st) => st.user);
   
-  const { DetailisVisible } = useSelector((state) => state.store);
+  
 
   // Public data — runs once on mount
   useEffect(() => {
